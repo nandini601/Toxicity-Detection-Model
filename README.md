@@ -6,7 +6,7 @@ This repository contains code for training a toxicity detection model using Natu
 
 ## Dataset
 
-The dataset used for training the model (`train.csv`) contains labeled tweets along with their toxicity scores. Before training the model, the data is preprocessed to clean and tokenize the text, lemmatize words, and remove stopwords.
+The dataset used for training the model (`FinalBalancedDataset.csv`) contains labeled tweets along with their toxicity scores. Before training the model, the data is preprocessed to clean and tokenize the text, lemmatize words, and remove stopwords.
 
 ## Requirements
 
@@ -18,5 +18,5 @@ The dataset used for training the model (`train.csv`) contains labeled tweets al
 1. Clone the repository:
    
    ```bash
-   git clone https://github.com/your-username/toxicity-detection.git
+   git clone https://github.com/nandini601/toxicity-detection.git
    cd toxicity-detection
